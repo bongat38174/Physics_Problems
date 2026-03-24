@@ -1,4 +1,4 @@
-Got it — I’ll present **solutions one by one**, clean and easy to copy, just like you wanted.
+.
 
 ---
 
