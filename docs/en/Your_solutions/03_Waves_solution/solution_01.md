@@ -1,58 +1,19 @@
+# Problem 1: Wave Properties
 
+## Given
+- Frequency: f = 440 Hz
+- Speed of sound in air: v_air = 343 m/s
+- Speed of sound in water: v_water = 1482 m/s
 
----
+## Formula
+v = f * λ  →  λ = v / f
 
-# ✅ **Problem 1: Wave Properties**
+## Solution
+- Wavelength in air:
+  λ_air = 343 / 440 ≈ 0.78 m
+- Wavelength in water:
+  λ_water = 1482 / 440 ≈ 3.37 m
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"v = f\lambda"}}
-
----
-
-## 🔹 Given:
-
-* ( f = 440 ,\text{Hz} )
-* ( v_{air} = 343 ,\text{m/s} )
-* ( v_{water} = 1482 ,\text{m/s} )
-
----
-
-## 🔹 Step 1: Wavelength in Air
-
-[
-\lambda_{air} = \frac{v_{air}}{f} = \frac{343}{440}
-]
-
-[
-\lambda_{air} \approx 0.78 ,\text{m}
-]
-
----
-
-## 🔹 Step 2: Wavelength in Water
-
-[
-\lambda_{water} = \frac{v_{water}}{f} = \frac{1482}{440}
-]
-
-[
-\lambda_{water} \approx 3.37 ,\text{m}
-]
-
----
-
-## ✅ **Final Answers:**
-
-* **Wavelength in air:** ( \boxed{0.78 ,\text{m}} )
-* **Wavelength in water:** ( \boxed{3.37 ,\text{m}} )
-
----
-
-
-
-* Frequency stays the same
-* Speed changes → wavelength changes
-* Faster medium ⇒ longer wavelength
-
----
-
-
+## Answer
+- Wavelength in air: 0.78 m  
+- Wavelength in water: 3.37 m
