@@ -1,4 +1,4 @@
-Got it — same style as the first one with the formula block 👇
+
 
 ---
 
