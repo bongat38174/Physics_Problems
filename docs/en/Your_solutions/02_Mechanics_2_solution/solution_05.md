@@ -1,23 +1,13 @@
-# ✅ **Solution 5: Inelastic Collision**
+# Section 2: Mechanics II
 
----
+## Problem 5: Maximum Acceleration in Simple Harmonic Motion (SHM)
 
-### **Given:**
+**Question:**  
+A mass oscillates in simple harmonic motion with an amplitude of 0.1 m and a period of 0.5 s. Find the maximum acceleration.
 
-* Runner mass: (m_1 = 70 , \text{kg})
-* Runner velocity: (v_1 = 3 , \text{m/s})
-* Cart mass: (m_2 = 140 , \text{kg})
-* Cart initially at rest: (v_2 = 0)
+**Solution:**
 
----
+The maximum acceleration in SHM is given by:
 
-### **Step 1: Use conservation of momentum**
-
-[
-m_1 v_1 + m_2 v_2 = (m_1 + m_2)v_f
-]
-
-Substitute values:
-
-[
-70(3) + 140(0) = (70 + 140)v_f
+```math
+a_\text{max} = \omega^2 A
