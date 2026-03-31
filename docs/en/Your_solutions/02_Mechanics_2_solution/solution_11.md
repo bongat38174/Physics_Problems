@@ -1,14 +1,13 @@
-# ✅ **Solution 11: Dynamics with a Time-Dependent Force**
+# Section 2: Mechanics II
 
----
+## Problem 11: Maximum Force on a Mass in SHM
 
-## **Given:**
+**Question:**  
+A mass of 0.5 kg oscillates in simple harmonic motion with an amplitude of 0.1 m and a spring constant of 200 N/m. Find the maximum force acting on the mass.
 
-[
-\vec F(t) = (15t,; 3t - 12,; -6t^2)
-]
-[
-m = 3 , \text{kg}
-]
-[
-\vec r(0) = (5,;2,;-3), \quad \vec v(0) = (2,;0,;
+**Solution:**
+
+The maximum force in SHM is given by Hooke’s law:
+
+```math
+F_\text{max} = k A
