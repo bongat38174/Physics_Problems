@@ -1,109 +1,56 @@
-Here’s a **confident, presentation-ready explanation** for **Problem 6** 👇
+# Problem 6: Wave Equation
+
+## Given
+y(x,t) = 0.05 sin(2πx − 50πt)  
+(x and y in meters, t in seconds)
+
+Compare with the standard wave form:  
+y(x,t) = A sin(kx − ωt)
 
 ---
 
-# 🎤 **Problem 6: Wave Equation Presentation**
+## a) Amplitude
 
-“**We are given the wave equation:**
-[
-y(x,t) = 0.05 \sin(2\pi x - 50\pi t)
-]
-
-This follows the standard form of a wave:
-
-[
-y(x,t) = A \sin(kx - \omega t)
-]
-
-So we can directly identify the key parameters.”
+A = 0.05 m
 
 ---
 
-## 🔹 **a) Amplitude**
+## b) Wavelength
 
-“The amplitude is the coefficient in front of the sine function.”
+k = 2π  
+λ = 2π / k  
 
-[
-A = 0.05 \text{ m}
-]
-
-👉 “So, the amplitude is **0.05 meters**.”
+λ = 2π / 2π = 1 m
 
 ---
 
-## 🔹 **b) Wavelength**
+## c) Frequency
 
-“From the equation, we see that:”
+ω = 50π  
+f = ω / (2π)  
 
-[
-k = 2\pi
-]
-
-Using:
-
-[
-\lambda = \frac{2\pi}{k}
-]
-
-[
-\lambda = \frac{2\pi}{2\pi} = 1 \text{ m}
-]
-
-👉 “So, the wavelength is **1 meter**.”
+f = 50π / (2π) = 25 Hz
 
 ---
 
-## 🔹 **c) Frequency**
+## d) Wave Speed
 
-“We identify angular frequency:”
+v = fλ  
 
-[
-\omega = 50\pi
-]
-
-Using:
-
-[
-f = \frac{\omega}{2\pi}
-]
-
-[
-f = \frac{50\pi}{2\pi} = 25 \text{ Hz}
-]
-
-👉 “So, the frequency is **25 Hz**.”
+v = 25 × 1 = 25 m/s
 
 ---
 
-## 🔹 **d) Wave Speed**
+## Final Answers
 
-“We use the relationship:”
-
-[
-v = f\lambda
-]
-
-[
-v = 25 \times 1 = 25 \text{ m/s}
-]
-
-👉 “So, the wave speed is **25 meters per second**.”
+- Amplitude: 0.05 m  
+- Wavelength: 1 m  
+- Frequency: 25 Hz  
+- Wave speed: 25 m/s  
 
 ---
 
-# ✅ **Final Summary (say this clearly):**
+## Key Idea
 
-* Amplitude = **0.05 m**
-* Wavelength = **1 m**
-* Frequency = **25 Hz**
-* Wave speed = **25 m/s**
-
----
-
-## 💡 **Confidence Tip (nice closing line):**
-
-“This method works because any wave equation can be compared to the standard form to extract its physical properties.”
-
----
-
-If you want, I can also give you a **super short version to memorize (like 15 seconds)** 👍
+Compare the given equation with the standard form  
+y = A sin(kx − ωt) to extract A, k, and ω.
