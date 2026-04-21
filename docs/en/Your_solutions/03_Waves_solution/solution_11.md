@@ -1,164 +1,56 @@
-✅ Problem 11: Two-Slit Interference Animation
-Goal:
+# Problem 11: Two-Slit Interference
 
-Simulate Young’s experiment with two slits acting as point sources:
+## Goal
+Simulate Young’s double-slit experiment where two slits act as coherent wave sources.
 
-𝑢
-(
-𝑟
-⃗
-,
-𝑡
-)
-=
-𝐴
-∣
-𝑟
-⃗
-−
-𝑟
-1
-⃗
-∣
-sin
-⁡
-(
-𝑘
-∣
-𝑟
-⃗
-−
-𝑟
-1
-⃗
-∣
-−
-𝜔
-𝑡
-)
-+
-𝐴
-∣
-𝑟
-⃗
-−
-𝑟
-2
-⃗
-∣
-sin
-⁡
-(
-𝑘
-∣
-𝑟
-⃗
-−
-𝑟
-2
-⃗
-∣
-−
-𝜔
-𝑡
-)
-u(
-r
-,t)=
-∣
-r
-−
-r
-1
-	​
+---
 
-	​
+## Wave Equation
 
-∣
-A
-	​
+u(r,t) = (A / |r - r₁|) sin(k|r - r₁| - ωt)  
+       + (A / |r - r₂|) sin(k|r - r₂| - ωt)
 
-sin(k∣
-r
-−
-r
-1
-	​
+Where:
+- r₁, r₂ → positions of the two slits  
+- A → amplitude  
+- k = 2π / λ → wave number  
+- ω → angular frequency  
 
-	​
+---
 
-∣−ωt)+
-∣
-r
-−
-r
-2
-	​
+## Parameters
+- Distance between slits: d = |r₁ - r₂|  
+- Wavelength: λ  
 
-	​
+---
 
-∣
-A
-	​
+## Key Idea
+- The total wave is the **sum of two waves** (superposition)  
+- Constructive interference → bright regions  
+- Destructive interference → dark regions  
 
-sin(k∣
-r
-−
-r
-2
-	​
+---
 
-	​
+## HTML Simulation
 
-∣−ωt)
-𝑟
-1
-⃗
-,
-𝑟
-2
-⃗
-r
-1
-	​
+Create an interactive animation where:
+- User can change slit distance d  
+- User can change wavelength λ  
+- Real-time interference pattern is displayed  
 
-	​
+---
 
-,
-r
-2
-	​
+## Example File
 
-	​
+See: TwoSlitInterference.html
 
- = slit positions
-𝑑
-=
-∣
-𝑟
-1
-⃗
-−
-𝑟
-2
-⃗
-∣
-d=∣
-r
-1
-	​
+---
 
-	​
+## Output
+- Interference pattern with alternating bright and dark fringes  
+- Demonstrates wave superposition in real time  
 
-−
-r
-2
-	​
+---
 
-	​
-
-∣ adjustable
-Wavelength 
-𝜆
-λ adjustable
-Real-time interference pattern visualization
+## Key Concept
+Interference occurs due to phase differences between waves arriving from two sources.
