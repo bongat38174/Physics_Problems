@@ -1,19 +1,44 @@
-# Problem 1: Wave Properties
+# Task 01 – Coulomb’s Law
 
-## Given
-- Frequency: f = 440 Hz
-- Speed of sound in air: v_air = 343 m/s
-- Speed of sound in water: v_water = 1482 m/s
+## Problem Statement
 
-## Formula
-v = f * λ  →  λ = v / f
+Four charges of $+1.0 \ \mathrm{C}$ are placed at the corners of a square of side $1.0 \ \mathrm{m}$. A charge of $-2.0 \ \mathrm{C}$ is placed at the center.
 
-## Solution
-- Wavelength in air:
-  λ_air = 343 / 440 ≈ 0.78 m
-- Wavelength in water:
-  λ_water = 1482 / 440 ≈ 3.37 m
+Determine the net electric force on the central charge.
 
-## Answer
-- Wavelength in air: 0.78 m  
-- Wavelength in water: 3.37 m
+---
+
+## Theory
+
+Coulomb’s law:
+
+$$
+F = k \frac{|q_1 q_2|}{r^2}
+$$
+
+---
+
+## Step-by-Step Solution
+
+Each corner charge exerts an equal magnitude force on the central charge.
+
+The directions are toward each corner (attractive force).
+
+Due to symmetry:
+
+- Forces cancel in opposite directions
+- Net force in both x and y directions is zero
+
+---
+
+## Final Result
+
+$$
+F_{\text{net}} = 0
+$$
+
+---
+
+## Interpretation
+
+All forces cancel due to symmetry of the square.
