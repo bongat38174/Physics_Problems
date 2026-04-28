@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+6. Wave Equation AnalysisStandard form: $y(x,t) = A \sin(kx - \omega t)$.Given: $y(x,t) = 0.05 \sin(2\pi x - 50\pi t)$.a) Amplitude: $A = \mathbf{0.05 \text{ m}}$b) Wavelength: $k = 2\pi \implies \frac{2\pi}{\lambda} = 2\pi \implies \lambda = \mathbf{1 \text{ m}}$c) Frequency: $\omega = 50\pi \implies 2\pi f = 50\pi \implies f = \mathbf{25 \text{ Hz}}$d) Wave Speed: $v = f\lambda = 25 \times 1 = \mathbf{25 \text{ m/s}}$
+=======
 # Problem 6: Wave Equation
 
 ## Given
@@ -54,3 +57,5 @@ v = 25 × 1 = 25 m/s
 
 Compare the given equation with the standard form  
 y = A sin(kx − ωt) to extract A, k, and ω.
+
+>>>>>>> 502320101a15ce1fe54a1ce2367815f2935f21dc
