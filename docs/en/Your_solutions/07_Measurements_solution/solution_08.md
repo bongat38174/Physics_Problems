@@ -1,146 +1,211 @@
-# Task 08 – Mass-Spring Measurements
-
-## Problem Statement
-
-Create a spring-mass oscillator simulation and perform 10 measurements of the time for 10 oscillations.
-
-Using the data:
-
-1. Determine the mean period
-2. Determine the standard deviation
-3. Calculate the spring constant
-4. Determine uncertainty in the spring constant
-
----
+# 8. Mass-Spring Measurements
 
 ## Theory
 
-For a mass-spring oscillator:
+The period of oscillation for a mass attached to a spring is given by:
 
-$$
+\[
 T = 2\pi\sqrt{\frac{m}{k}}
-$$
+\]
 
-Rearranging:
+where:
 
-$$
-k = \frac{4\pi^2 m}{T^2}
-$$
+- \(T\) = period of oscillation (s)
+- \(m\) = mass (kg)
+- \(k\) = spring constant (N/m)
 
----
+Rearranging the equation to solve for the spring constant:
 
-## Experimental Data
-
-Times for 10 oscillations:
-
-$$
-6.31,\ 6.28,\ 6.35,\ 6.30,\ 6.29,
-$$
-
-$$
-6.33,\ 6.27,\ 6.32,\ 6.31,\ 6.34
-$$
-
-All values are in seconds.
+\[
+k = \frac{4\pi^2m}{T^2}
+\]
 
 ---
 
-## Step-by-Step Solution
-
-### Step 1: Mean time
-
-$$
-\bar{t}
-=
-\frac{1}{10}\sum t_i
-$$
-
----
-
-$$
-\bar{t}
-=
-6.31\,\mathrm{s}
-$$
-
----
-
-### Step 2: Mean period
-
-Since measurements correspond to 10 oscillations:
-
-$$
-T = \frac{6.31}{10}
-$$
-
----
-
-$$
-T = 0.631\,\mathrm{s}
-$$
-
----
-
-### Step 3: Standard deviation
-
-$$
-\sigma \approx 0.025\,\mathrm{s}
-$$
-
----
-
-### Step 4: Spring constant
+## Example Experiment
 
 Assume:
 
-$$
-m = 0.50\,\mathrm{kg}
-$$
+\[
+m = 0.500\ \text{kg}
+\]
+
+The following times were measured for **10 complete oscillations**:
+
+| Trial | Time for 10 Oscillations (s) |
+|---------|---------|
+| 1 | 14.15 |
+| 2 | 14.05 |
+| 3 | 14.20 |
+| 4 | 14.10 |
+| 5 | 14.12 |
+| 6 | 14.08 |
+| 7 | 14.17 |
+| 8 | 14.09 |
+| 9 | 14.14 |
+| 10 | 14.11 |
 
 ---
 
-$$
+## Step 1: Calculate the Mean Time
+
+The mean is:
+
+\[
+\bar{t} = \frac{\sum t_i}{N}
+\]
+
+Adding all measurements:
+
+\[
+14.15+14.05+14.20+14.10+14.12+14.08+14.17+14.09+14.14+14.11
+\]
+
+\[
+=141.21\ \text{s}
+\]
+
+Therefore:
+
+\[
+\bar{t}
+=
+\frac{141.21}{10}
+=
+14.121\ \text{s}
+\]
+
+---
+
+## Step 2: Calculate the Mean Period
+
+Since each measurement corresponds to 10 oscillations:
+
+\[
+T=\frac{\bar{t}}{10}
+\]
+
+\[
+T=\frac{14.121}{10}
+\]
+
+\[
+T=1.4121\ \text{s}
+\]
+
+---
+
+## Step 3: Calculate the Standard Deviation
+
+Using:
+
+\[
+s=\sqrt{\frac{1}{N-1}\sum (t_i-\bar{t})^2}
+\]
+
+The standard deviation of the timing measurements is:
+
+\[
+s_t \approx 0.047\ \text{s}
+\]
+
+Since the measurements were for 10 oscillations:
+
+\[
+s_T=\frac{s_t}{10}
+\]
+
+\[
+s_T=0.0047\ \text{s}
+\]
+
+---
+
+## Step 4: Calculate the Spring Constant
+
+Using:
+
+\[
+k=\frac{4\pi^2m}{T^2}
+\]
+
+Substituting values:
+
+\[
 k
 =
-\frac{4\pi^2(0.50)}{(0.631)^2}
-$$
+\frac{4\pi^2(0.500)}
+     {(1.4121)^2}
+\]
+
+\[
+k
+=
+9.90\ \text{N/m}
+\]
 
 ---
 
-$$
-k \approx 49.6\,\mathrm{N/m}
-$$
+## Step 5: Calculate the Uncertainty in \(k\)
+
+Because:
+
+\[
+k \propto T^{-2}
+\]
+
+the relative uncertainty is:
+
+\[
+\frac{\Delta k}{k}
+=
+2\frac{\Delta T}{T}
+\]
+
+Substituting values:
+
+\[
+\frac{\Delta k}{k}
+=
+2\left(\frac{0.0047}{1.4121}\right)
+\]
+
+\[
+=0.0067
+\]
+
+Therefore:
+
+\[
+\Delta k
+=
+9.90(0.0067)
+\]
+
+\[
+\Delta k
+=
+0.07\ \text{N/m}
+\]
 
 ---
 
-## Final Result
+## Final Answer
 
-### Mean period
+\[
+\boxed{
+k=(9.90 \pm 0.07)\ \text{N/m}
+}
+\]
 
-$$
-T = 0.631\,\mathrm{s}
-$$
+### Conclusion
 
----
+The experimental spring constant is:
 
-### Standard deviation
+\[
+\boxed{
+k=(9.90 \pm 0.07)\ \text{N/m}
+}
+\]
 
-$$
-\sigma = 0.025\,\mathrm{s}
-$$
-
----
-
-### Spring constant
-
-$$
-k \approx 49.6\,\mathrm{N/m}
-$$
-
----
-
-## Interpretation
-
-Repeated measurements improve experimental reliability and allow uncertainty estimation.
-
----
+The uncertainty is small, indicating that the timing measurements were reasonably consistent.
